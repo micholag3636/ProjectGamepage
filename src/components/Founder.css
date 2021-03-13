@@ -1,0 +1,51 @@
+.Founder-box{
+    margin-top: 170px;
+  
+    border: 1px grey solid;
+    height: 370px;
+    width: 350px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-shadow: 1px 1px transparent;
+    background-color: rgb(255,255,255,0.7);
+ 
+
+
+}
+
+.person-pic{
+    margin-top: 15px;
+    height: 80px;
+    width: 80px;
+    border: 0px black solid;
+    border-radius: 999px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.person-info{
+    margin: 10px;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+    color: grey;
+    margin-left: 25px;
+}
+
+.name-ofperson{
+
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    margin-top: 30px;
+  
+}

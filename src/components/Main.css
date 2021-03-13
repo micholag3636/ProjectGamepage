@@ -1,0 +1,239 @@
+#Main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+   
+
+
+
+
+
+}
+
+.Main-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  
+}
+
+
+.swiperc{
+   
+    margin-top: 170px;
+  
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:  center;
+
+}
+
+
+.loader {
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #f4a261; /* Blue */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+    
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+
+.Productsc{
+    width: 400px;
+ 
+
+}
+
+.swiper-button-next{
+    margin-right: 20px;
+  
+}
+
+.swiper-button-prev{
+    margin-left: 20px;
+
+
+}
+
+.loader-box{
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+
+.main-title{
+    margin-top: 100px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: 350%;
+    color: white;
+
+}
+
+
+
+
+
+
+
+#swiper-button-nextc{
+  
+
+    position: relative;
+  
+    left: 720px;
+
+
+
+
+  
+}
+
+
+
+
+/*
+
+.back{
+width: 70%;
+height: 400px;
+
+
+
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+
+
+
+}
+
+
+.back {
+background-image: url("https://images-eu.ssl-images-amazon.com/images/G/01/ape/fallback/static/GB_GC_GW_backup_._V278268465_.jpg");
+
+background-repeat: no-repeat;
+transition: 5s;
+
+animation-name:animate;
+animation-direction:alternate-reverse;
+animation-duration: 30s;
+animation-fill-mode: forwards;
+animation-iteration-count: infinite;
+animation-play-state: running;
+animation-timing-function: ease-in-out;
+
+
+
+
+}
+
+*/
+
+.main-button{
+    border-radius: 5px;
+    width: 180px;
+    height: 60px;
+    background-color: #00b4d8;
+    border: 0px black solid;
+    margin-top: 100px;
+    color: white;
+
+
+
+
+}
+
+.main-button:hover{
+    background-color: #48cae4
+
+}
+.main-button:focus{
+    outline: 0px;
+    border: 0px solid black;
+}
+
+
+
+  .sgn{
+      width: 370px;
+      height: 40px;
+
+
+  }
+
+  #cp{
+
+    height: 150px;
+    width: 370px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  #signinb{
+      background-color: #F3CD71;
+      width: 310px;
+      border: 1px #A88734 solid;
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     margin-bottom: 10px;
+
+  }
+
+  #butt{
+      margin-bottom: 8px;
+      
+
+
+  }
+
+  .mainimg{
+     
+margin-top: 32px;
+    width: 280px;
+    height: 280px;
+  }
+
+  #boxp{
+      margin-left: 22px;
+      font-size: 14px;
+      color: #484949
+
+
+  }
+
+  #slink{
+      margin-left: 22px;
+      
+  }
+
+  .main-text{
+
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: 105%;
+    color: white;
+
+
+  }

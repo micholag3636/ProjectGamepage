@@ -1,0 +1,39 @@
+.Infobody{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+background-color: #00b4d8;
+height: 30vh;
+width: 100%;
+
+
+}
+
+
+
+p {font-family:Sans-Serif; text-align:left; font-size: 20px}
+
+.Infobody > h1{
+    
+    color: white;
+    margin-bottom: 30px;
+    font-size: 400%;
+
+
+}
+   
+
+.bot-text{
+
+    background-color: #EBF5F5;
+    height:70vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+

@@ -1,0 +1,523 @@
+.Nav {
+    
+    background-color: transparent;
+    height: 80px;
+    width: 100%;
+    display: flex;
+  
+    flex-direction: row;
+    justify-content: space-between;;
+    align-items: center;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    z-index: 50;
+ 
+
+    font-family: 'Lato', sans-serif;
+
+ 
+
+}
+
+
+
+
+img{
+    height: 50px;
+    width: 100px;
+    margin: 2px;
+
+
+}
+
+.loc{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    margin: 2px;
+
+
+}
+
+#sinput{
+
+    width: 900px;
+    height: 35px;
+    border-radius: 0px;
+    margin-bottom: 11px;
+    margin-right: 75px;
+}
+
+
+
+.search{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  
+   
+}
+
+h3{
+
+    color: white;
+}
+
+.sec3{
+    display: flex;
+    align-items: center;
+  
+   
+}
+
+.icon{
+    color: white;
+    margin: 0px;
+}
+
+.logoimg{
+    width: 250px;
+    height: 70px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+
+
+
+}
+
+#searchb{
+    float: left;
+  width: 20%;
+  padding: 10px;
+  color: 393735;
+  font-size: 17px;
+  border-left: none; 
+  height: 37px;
+  width: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-bottom: 11px;
+  background-color: #FEBD69;
+  border: 0px;
+ 
+
+
+}
+
+
+.ukflag{
+    height: 17px;
+    width: 25px;
+    margin-left: 25px;
+
+
+
+}
+
+.flagi{
+    color: white;
+}
+
+
+/*
+.slog{
+    height: 38px;
+    background-color: #FEBD69;
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    margin-bottom: 11px;
+
+
+
+
+
+}
+*/
+
+.navbut{
+    background-color: transparent;
+    height: 30px;
+    border: none;
+    display: flex;
+    flex-direction: row;
+   
+    align-items: center;
+
+    justify-content: center;
+    margin-bottom: 15px;
+    margin-right: 30px;
+
+ 
+
+}
+
+.navbut:focus{
+    outline: 0px;
+    border: none;
+}
+
+
+
+
+
+
+.dropicon{
+    color: white;
+    margin: 0px;
+    padding: 0px;
+
+
+
+
+}
+
+
+.droph3{
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+
+#addressh3{
+    margin-right: 25px;
+
+}
+
+.dropdown-about{
+    display: none;
+
+   
+    position: absolute;
+  
+
+
+    
+    background-color: #90e0ef;
+    min-width: 158px;
+    z-index: 1;
+    height: 120px;
+    border-radius: 5px;
+    color: white;
+    transition: 0.2s 1s;
+  
+}
+
+.dropdown-about button:hover{
+    background-color: transparent;
+    color: white;
+    
+    display: block;
+
+  
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-decoration: none;
+    transition-delay: 1s;
+
+  
+    
+   
+
+
+    
+}
+
+
+
+#aboutus:hover .dropdown-about{
+    display: block;
+    transition-delay: 5s;
+    display: flex;
+   
+ 
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+   
+  
+
+}
+
+
+
+
+
+
+
+
+#aboutus:hover .navbutabout{
+    background-color: transparent
+
+
+}
+
+
+.navbutabout:focus{
+    outline: 0px;
+    border: none;
+}
+
+
+
+
+.navbutabout{
+    background-color: transparent;
+    height: 30px;
+    border: none;
+    display: block;
+    flex-direction: column;
+   
+    align-items: center;
+
+    justify-content: center;
+    
+    margin-right: 30px;
+    cursor: pointer;
+    margin-bottom: 12px;
+
+    
+ 
+
+
+
+
+}
+.droph3:hover{
+    background-color: transparent;
+    border-radius: 5px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+
+}
+.droph3:active{
+       background-color: transparent;
+    border-radius: 5px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+
+}
+
+
+
+
+
+
+
+#droph3s:hover{
+    background-color: #61E2FF;
+    border-radius: 5px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+
+}
+
+
+
+
+#aboutus{
+    position: relative;
+    display: inline-block;
+  
+}
+
+.dropdownb{
+    height: 40px;
+    width: 159px;
+    background-color:transparent;
+    color: white;
+    border: none;
+    display: block;
+    transition-delay: 5s;
+   
+   
+}
+
+.dropdownb:focus{
+    outline: 0px;
+}
+
+
+
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+#topdrop{
+    position:relative;
+    top: 40px;
+    z-index:2;
+}
+
+
+
+.navbutcart{
+    background-color: #e76f51;
+    height: 40px;
+    border: none;
+    display: flex;
+    
+    flex-direction: row;
+   
+    align-items: center;
+
+    justify-content: center;
+    margin-bottom: 15px;
+    margin-right: 30px;
+    border-radius: 5px;
+    color:white;
+    cursor: pointer;
+    
+ 
+
+
+
+
+}
+
+.navbutcart:focus{
+    outline: none;
+}
+
+.navbutcart h2{
+    position: relative;
+    right: 14px;
+  
+ 
+
+
+
+
+}
+
+
+
+
+
+
+
+.hamburger_menu{
+    width: 30px;
+    height: 30px;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+ 
+    list-style: none;
+    margin-right: 20px;
+  
+
+
+
+}
+
+.nav_link{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.nav_link{
+    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    transition: 1s;
+
+    
+}
+
+
+
+
+
+.hamburger_menu > div{
+    width: 100%;
+    height: 3px;
+    background-color: #f4f4f4;;
+    color: #f4f4f4;
+}
+
+.hamburger_menu:hover{
+   
+}
+
+@media (max-width: 960px){
+    .nav_link{
+        display: none;
+     
+    }
+
+
+    .hamburger_menu{
+        display: flex;
+   
+    }
+
+
+
+}
+
+
+@media (max-width: 500px){
+    .logoimg {
+        height: 4rem;
+        width: 11rem;
+    }
+}
+
+.navbutabout:hover{
+    background-color: #253a55;
+}
+
+
+.dropdowns_wrapper{
+    position: relative;
+  display: inline-block;
+
+
+
+
+
+}
+
+.dropdowns_wrapper:hover .dropdown-about{
+    display: block;
+    transition: 1s;
+    position: absolute;
+}
+
+
+.dropdowns_wrappera{
+    position: relative;
+    display: inline-block;
+}
+
+.navbutcart h2{
+    margin-left: 20px;
+}
