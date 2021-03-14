@@ -15,7 +15,7 @@ function Nav({click}) {
         <div >
         <div className="Nav">
             <div>
-                <img className="logoimg" src="https://ibb.co/yXFwy6X"/>
+                <img className="logoimg" src="https://imgur.com/VUY8uXq"/>
             </div>
            
 
