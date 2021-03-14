@@ -57,7 +57,7 @@ function App() {
       <Route exact path="/apex" component={Warehouses} />
 
 
-      <Route exact path="/overwatchleauge" component={Support} />
+      <Route exact path="/overwatchleague" component={Support} />
 
       <Route exact path="/fortnite" component={Team} />
       <Route exact path="/founders" component={Founders} />
