@@ -4,7 +4,7 @@ function Warehouses() {
     return (
         <div>
         <div  className="Infobody"> 
-        <h1>Warehouses</h1>
+        <h1>Apex Legends</h1>
 
        
         </div>

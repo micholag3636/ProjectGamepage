@@ -199,7 +199,7 @@ h3{
 
 
     
-    background-color: #90e0ef;
+    background-color: rgb(133,142,157);
     min-width: 158px;
     z-index: 1;
     height: 120px;
@@ -321,7 +321,7 @@ h3{
 
 
 #droph3s:hover{
-    background-color: #61E2FF;
+    background-color: rgb(133,142,157);
     border-radius: 5px;
     height: 30px;
     display: flex;
@@ -492,7 +492,7 @@ a{
 }
 
 .navbutabout:hover{
-    background-color: #253a55;
+    background-color: rgb(133,142,157);
 }
 
 

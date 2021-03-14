@@ -5,7 +5,7 @@ function Support() {
     return (
         <div>
         <div  className="Infobody"> 
-        <h1>Support</h1>
+        <h1>Overwatch</h1>
 
        
         </div>

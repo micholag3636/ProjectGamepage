@@ -3,6 +3,8 @@ import './App.css';
 import Nav from "./components/Nav.js"
 import Main from "./components/Main.js"
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom"
+import React from "react"
+
 
 
 import Offices from "./components/Offices.js"
@@ -16,6 +18,8 @@ import SideDrawer from "./components/SideDrawer.js"
 import Services from "./components/Services.js"
 import {useState} from "react"
 import contactForm from "./components/contactForm.js"
+import roverwatch from "./components/roverwatch.js"
+import rapex from "./components/rapex.js"
 
 
 function App() {
@@ -48,18 +52,20 @@ function App() {
 
       
 
-      <Route exact path="/offices" component={Offices} />
+      <Route exact path="/overwatch" component={Offices} />
       
-      <Route exact path="/warehouses" component={Warehouses} />
+      <Route exact path="/apex" component={Warehouses} />
 
 
-      <Route exact path="/support" component={Support} />
+      <Route exact path="/overwatchleauge" component={Support} />
 
-      <Route exact path="/team" component={Team} />
+      <Route exact path="/fortnite" component={Team} />
       <Route exact path="/founders" component={Founders} />
       <Route exact path="/company" component={Company} />
       <Route exact path="/services" component={Services} />
       <Route exact path="/contactform" component={contactForm} />
+      <Route exact path="/roverwatch" component={roverwatch} />
+      <Route exact path="/rapex" component={rapex} />
 
 
       </main>

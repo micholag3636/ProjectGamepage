@@ -1,11 +1,10 @@
 import React from 'react'
-import "./InfoPages.css"
 
-function Offices() {
+function overwatch() {
     return (
         <div>
-        <div  className="Infobody"> 
-        <h1>Overwatch</h1>
+                <div  className="Infobody"> 
+        <h1>overwatch</h1>
 
        
         </div>
@@ -21,8 +20,9 @@ Capitalize on low hanging fruit to identify a ballpark value added activity to b
 
         </div>
         
-    </div>
+            
+        </div>
     )
 }
 
-export default Offices
+export default overwatch

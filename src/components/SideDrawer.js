@@ -75,11 +75,10 @@ function SideDrawer({show, click}) {
 
  
   
-    <button className="navbutabout"><h3 className="droph3">Contact Us</h3></button>
+    <button className="navbutabout"><h3 className="droph3">Popular Games</h3></button>
     <div class="dropdown-about">
-       <Link to="/offices"> <button className="dropdownb">Offices</button></Link>
-        <Link to="/warehouses"><button className="dropdownb">Warehouses</button></Link>
-      <Link to="/support">  <button className="dropdownb">Support</button></Link>
+       <Link to="/overwatch"> <button className="dropdownb">Overwatch</button></Link>
+        <Link to="/apex"><button className="dropdownb">Apex</button></Link>
     </div>
     </div>
 
@@ -101,11 +100,11 @@ function SideDrawer({show, click}) {
 
 
 
-<button className="navbutabout"><h3 className="droph3">About Us</h3></button>
+<button className="navbutabout"><h3 className="droph3">E-SPORTS</h3></button>
 <div class="dropdown-about">
-   <Link to="/company" ><button className="dropdownb">Company</button></Link>
- <Link to="/team"><button className="dropdownb">Team</button></Link>  
-  <Link to="/founders"> <button className="dropdownb">Founders</button></Link>
+   <Link to="/overwatchleague" ><button className="dropdownb">Overwatch League</button></Link>
+ <Link to="/fortnite"><button className="dropdownb">Fortnite</button></Link>  
+
 </div>
 
 </div>
@@ -116,11 +115,28 @@ function SideDrawer({show, click}) {
     </span>
 
     
-<Link to="/services">
+    <span>
+    <div  id="aboutus">
 
 
-<button id="homebut" className="navbut">   <h3 className="droph3" id="addressh3">Services</h3>    </button>
-</Link>
+
+
+
+
+
+<button className="navbutabout"><h3 className="droph3">Reviews</h3></button>
+<div class="dropdown-about">
+   <Link to="/roverwatch" ><button className="dropdownb">Overwatch</button></Link>
+ <Link to="/rapex"><button className="dropdownb">Apex Legends</button></Link>  
+
+</div>
+
+</div>
+
+
+
+
+    </span>
 
 
 
