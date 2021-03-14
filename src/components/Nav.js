@@ -15,7 +15,7 @@ function Nav({click}) {
         <div >
         <div className="Nav">
             <div>
-                <img className="logoimg" src="https://banner2.cleanpng.com/20180824/uht/kisspng-playstation-vr-logo-playstation-4-sony-corporation-alexander-haberl-warkidz-esports-e-v-5b7f832a1344b4.2532189215350833060789.jpg"/>
+             
             </div>
            
 
